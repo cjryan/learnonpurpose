@@ -8143,24 +8143,20 @@ var _elm_lang$html$Html_Attributes$style = _elm_lang$virtual_dom$VirtualDom$styl
 
 var _user$project$Lop$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgram(
 	A2(
-		_elm_lang$html$Html$header,
+		_elm_lang$html$Html$div,
 		{ctor: '[]'},
 		{
 			ctor: '::',
 			_0: A2(
-				_elm_lang$html$Html$nav,
-				{
-					ctor: '::',
-					_0: _elm_lang$html$Html_Attributes$class('top-nav orange'),
-					_1: {ctor: '[]'}
-				},
+				_elm_lang$html$Html$header,
+				{ctor: '[]'},
 				{
 					ctor: '::',
 					_0: A2(
-						_elm_lang$html$Html$div,
+						_elm_lang$html$Html$nav,
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$class('container'),
+							_0: _elm_lang$html$Html_Attributes$class('top-nav orange'),
 							_1: {ctor: '[]'}
 						},
 						{
@@ -8169,212 +8165,45 @@ var _user$project$Lop$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 								_elm_lang$html$Html$div,
 								{
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('nav-wrapper container'),
+									_0: _elm_lang$html$Html_Attributes$class('container'),
 									_1: {ctor: '[]'}
 								},
 								{
 									ctor: '::',
 									_0: A2(
-										_elm_lang$html$Html$a,
+										_elm_lang$html$Html$div,
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$href(''),
-											_1: {
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('side-menu-btn'),
-												_1: {ctor: '[]'}
-											}
+											_0: _elm_lang$html$Html_Attributes$class('nav-wrapper container'),
+											_1: {ctor: '[]'}
 										},
 										{
-											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$i,
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('material-icons left'),
-													_1: {ctor: '[]'}
-												},
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html$text('menu'),
-													_1: {ctor: '[]'}
-												}),
-											_1: {ctor: '[]'}
-										}),
-									_1: {
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$a,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$href('#'),
-												_1: {
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('brand-logo left'),
-													_1: {ctor: '[]'}
-												}
-											},
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html$text('Learn on Purpose'),
-												_1: {ctor: '[]'}
-											}),
-										_1: {
-											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$form,
-												{ctor: '[]'},
-												{
-													ctor: '::',
-													_0: A2(
-														_elm_lang$html$Html$div,
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('input-field'),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$class('right'),
-																_1: {ctor: '[]'}
-															}
-														},
-														{
-															ctor: '::',
-															_0: A2(
-																_elm_lang$html$Html$input,
-																{
-																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$id('search'),
-																	_1: {
-																		ctor: '::',
-																		_0: _elm_lang$html$Html_Attributes$type_('search'),
-																		_1: {ctor: '[]'}
-																	}
-																},
-																{ctor: '[]'}),
-															_1: {
-																ctor: '::',
-																_0: A2(
-																	_elm_lang$html$Html$label,
-																	{
-																		ctor: '::',
-																		_0: _elm_lang$html$Html_Attributes$for('search'),
-																		_1: {ctor: '[]'}
-																	},
-																	{
-																		ctor: '::',
-																		_0: A2(
-																			_elm_lang$html$Html$i,
-																			{
-																				ctor: '::',
-																				_0: _elm_lang$html$Html_Attributes$class('material-icons'),
-																				_1: {ctor: '[]'}
-																			},
-																			{
-																				ctor: '::',
-																				_0: _elm_lang$html$Html$text('search'),
-																				_1: {ctor: '[]'}
-																			}),
-																		_1: {ctor: '[]'}
-																	}),
-																_1: {
-																	ctor: '::',
-																	_0: A2(
-																		_elm_lang$html$Html$i,
-																		{
-																			ctor: '::',
-																			_0: _elm_lang$html$Html_Attributes$class('material-icons'),
-																			_1: {ctor: '[]'}
-																		},
-																		{
-																			ctor: '::',
-																			_0: _elm_lang$html$Html$text('close'),
-																			_1: {ctor: '[]'}
-																		}),
-																	_1: {ctor: '[]'}
-																}
-															}
-														}),
-													_1: {ctor: '[]'}
-												}),
-											_1: {ctor: '[]'}
-										}
-									}
-								}),
-							_1: {ctor: '[]'}
-						}),
-					_1: {ctor: '[]'}
-				}),
-			_1: {
-				ctor: '::',
-				_0: A2(
-					_elm_lang$html$Html$ul,
-					{
-						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$id('nav-mobile'),
-						_1: {
-							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$class('side-nav fixed'),
-							_1: {ctor: '[]'}
-						}
-					},
-					{
-						ctor: '::',
-						_0: A2(
-							_elm_lang$html$Html$li,
-							{ctor: '[]'},
-							{
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$div,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('userView'),
-										_1: {ctor: '[]'}
-									},
-									{
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$div,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('background'),
-												_1: {ctor: '[]'}
-											},
-											{
-												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$img,
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('images/nick_ii_library.jpg'),
-														_1: {ctor: '[]'}
-													},
-													{ctor: '[]'}),
-												_1: {ctor: '[]'}
-											}),
-										_1: {
 											ctor: '::',
 											_0: A2(
 												_elm_lang$html$Html$a,
 												{
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$href('#!user'),
-													_1: {ctor: '[]'}
+													_0: _elm_lang$html$Html_Attributes$href(''),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('side-menu-btn'),
+														_1: {ctor: '[]'}
+													}
 												},
 												{
 													ctor: '::',
 													_0: A2(
-														_elm_lang$html$Html$img,
+														_elm_lang$html$Html$i,
 														{
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('circle'),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$src('images/gagarin_icon.jpg'),
-																_1: {ctor: '[]'}
-															}
+															_0: _elm_lang$html$Html_Attributes$class('material-icons left'),
+															_1: {ctor: '[]'}
 														},
-														{ctor: '[]'}),
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text('menu'),
+															_1: {ctor: '[]'}
+														}),
 													_1: {ctor: '[]'}
 												}),
 											_1: {
@@ -8383,23 +8212,149 @@ var _user$project$Lop$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 													_elm_lang$html$Html$a,
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$href('#!name'),
+														_0: _elm_lang$html$Html_Attributes$href('#'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('brand-logo left'),
+															_1: {ctor: '[]'}
+														}
+													},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('Learn on Purpose'),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$form,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$div,
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$class('input-field'),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$class('right'),
+																		_1: {ctor: '[]'}
+																	}
+																},
+																{
+																	ctor: '::',
+																	_0: A2(
+																		_elm_lang$html$Html$input,
+																		{
+																			ctor: '::',
+																			_0: _elm_lang$html$Html_Attributes$id('search'),
+																			_1: {
+																				ctor: '::',
+																				_0: _elm_lang$html$Html_Attributes$type_('search'),
+																				_1: {ctor: '[]'}
+																			}
+																		},
+																		{ctor: '[]'}),
+																	_1: {
+																		ctor: '::',
+																		_0: A2(
+																			_elm_lang$html$Html$label,
+																			{
+																				ctor: '::',
+																				_0: _elm_lang$html$Html_Attributes$for('search'),
+																				_1: {ctor: '[]'}
+																			},
+																			{
+																				ctor: '::',
+																				_0: A2(
+																					_elm_lang$html$Html$i,
+																					{
+																						ctor: '::',
+																						_0: _elm_lang$html$Html_Attributes$class('material-icons'),
+																						_1: {ctor: '[]'}
+																					},
+																					{
+																						ctor: '::',
+																						_0: _elm_lang$html$Html$text('search'),
+																						_1: {ctor: '[]'}
+																					}),
+																				_1: {ctor: '[]'}
+																			}),
+																		_1: {
+																			ctor: '::',
+																			_0: A2(
+																				_elm_lang$html$Html$i,
+																				{
+																					ctor: '::',
+																					_0: _elm_lang$html$Html_Attributes$class('material-icons'),
+																					_1: {ctor: '[]'}
+																				},
+																				{
+																					ctor: '::',
+																					_0: _elm_lang$html$Html$text('close'),
+																					_1: {ctor: '[]'}
+																				}),
+																			_1: {ctor: '[]'}
+																		}
+																	}
+																}),
+															_1: {ctor: '[]'}
+														}),
+													_1: {ctor: '[]'}
+												}
+											}
+										}),
+									_1: {ctor: '[]'}
+								}),
+							_1: {ctor: '[]'}
+						}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$ul,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$id('nav-mobile'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('side-nav fixed'),
+									_1: {ctor: '[]'}
+								}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$li,
+									{ctor: '[]'},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('userView'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$div,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('background'),
 														_1: {ctor: '[]'}
 													},
 													{
 														ctor: '::',
 														_0: A2(
-															_elm_lang$html$Html$span,
+															_elm_lang$html$Html$img,
 															{
 																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$class('white-text name'),
+																_0: _elm_lang$html$Html_Attributes$src('images/nick_ii_library.jpg'),
 																_1: {ctor: '[]'}
 															},
-															{
-																ctor: '::',
-																_0: _elm_lang$html$Html$text('John Doe'),
-																_1: {ctor: '[]'}
-															}),
+															{ctor: '[]'}),
 														_1: {ctor: '[]'}
 													}),
 												_1: {
@@ -8408,86 +8363,79 @@ var _user$project$Lop$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 														_elm_lang$html$Html$a,
 														{
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$href('#!email'),
+															_0: _elm_lang$html$Html_Attributes$href('#!user'),
 															_1: {ctor: '[]'}
 														},
 														{
 															ctor: '::',
 															_0: A2(
-																_elm_lang$html$Html$span,
+																_elm_lang$html$Html$img,
 																{
 																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$class('white-text email'),
+																	_0: _elm_lang$html$Html_Attributes$class('circle'),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$src('images/gagarin_icon.jpg'),
+																		_1: {ctor: '[]'}
+																	}
+																},
+																{ctor: '[]'}),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$a,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$href('#!name'),
+																_1: {ctor: '[]'}
+															},
+															{
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$span,
+																	{
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$class('white-text name'),
+																		_1: {ctor: '[]'}
+																	},
+																	{
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text('John Doe'),
+																		_1: {ctor: '[]'}
+																	}),
+																_1: {ctor: '[]'}
+															}),
+														_1: {
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$a,
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$href('#!email'),
 																	_1: {ctor: '[]'}
 																},
 																{
 																	ctor: '::',
-																	_0: _elm_lang$html$Html$text('jd@example.com'),
+																	_0: A2(
+																		_elm_lang$html$Html$span,
+																		{
+																			ctor: '::',
+																			_0: _elm_lang$html$Html_Attributes$class('white-text email'),
+																			_1: {ctor: '[]'}
+																		},
+																		{
+																			ctor: '::',
+																			_0: _elm_lang$html$Html$text('jd@example.com'),
+																			_1: {ctor: '[]'}
+																		}),
 																	_1: {ctor: '[]'}
 																}),
 															_1: {ctor: '[]'}
-														}),
-													_1: {ctor: '[]'}
+														}
+													}
 												}
-											}
-										}
-									}),
-								_1: {ctor: '[]'}
-							}),
-						_1: {
-							ctor: '::',
-							_0: A2(
-								_elm_lang$html$Html$li,
-								{ctor: '[]'},
-								{
-									ctor: '::',
-									_0: A2(
-										_elm_lang$html$Html$a,
-										{
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$href('#!'),
-											_1: {ctor: '[]'}
-										},
-										{
-											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$i,
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('material-icons'),
-													_1: {ctor: '[]'}
-												},
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html$text('cloud'),
-													_1: {ctor: '[]'}
-												}),
-											_1: {
-												ctor: '::',
-												_0: _elm_lang$html$Html$text('First link with icon'),
-												_1: {ctor: '[]'}
-											}
-										}),
-									_1: {ctor: '[]'}
-								}),
-							_1: {
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$li,
-									{ctor: '[]'},
-									{
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$a,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$href('#!'),
-												_1: {ctor: '[]'}
-											},
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html$text('Second Link'),
-												_1: {ctor: '[]'}
 											}),
 										_1: {ctor: '[]'}
 									}),
@@ -8499,13 +8447,32 @@ var _user$project$Lop$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 										{
 											ctor: '::',
 											_0: A2(
-												_elm_lang$html$Html$div,
+												_elm_lang$html$Html$a,
 												{
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('divider'),
+													_0: _elm_lang$html$Html_Attributes$href('#!'),
 													_1: {ctor: '[]'}
 												},
-												{ctor: '[]'}),
+												{
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$i,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('material-icons'),
+															_1: {ctor: '[]'}
+														},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text('cloud'),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('First link with icon'),
+														_1: {ctor: '[]'}
+													}
+												}),
 											_1: {ctor: '[]'}
 										}),
 									_1: {
@@ -8519,12 +8486,12 @@ var _user$project$Lop$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 													_elm_lang$html$Html$a,
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('subheader'),
+														_0: _elm_lang$html$Html_Attributes$href('#!'),
 														_1: {ctor: '[]'}
 													},
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html$text('Subheader'),
+														_0: _elm_lang$html$Html$text('Second Link'),
 														_1: {ctor: '[]'}
 													}),
 												_1: {ctor: '[]'}
@@ -8537,29 +8504,172 @@ var _user$project$Lop$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 												{
 													ctor: '::',
 													_0: A2(
-														_elm_lang$html$Html$a,
+														_elm_lang$html$Html$div,
 														{
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('waves-effect'),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$href('#!'),
-																_1: {ctor: '[]'}
-															}
+															_0: _elm_lang$html$Html_Attributes$class('divider'),
+															_1: {ctor: '[]'}
 														},
+														{ctor: '[]'}),
+													_1: {ctor: '[]'}
+												}),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$li,
+													{ctor: '[]'},
+													{
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$a,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$class('subheader'),
+																_1: {ctor: '[]'}
+															},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('Subheader'),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$li,
+														{ctor: '[]'},
 														{
 															ctor: '::',
-															_0: _elm_lang$html$Html$text('Third Link With Waves'),
+															_0: A2(
+																_elm_lang$html$Html$a,
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$class('waves-effect'),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$href('#!'),
+																		_1: {ctor: '[]'}
+																	}
+																},
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text('Third Link With Waves'),
+																	_1: {ctor: '[]'}
+																}),
 															_1: {ctor: '[]'}
 														}),
+													_1: {ctor: '[]'}
+												}
+											}
+										}
+									}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$main_,
+					{ctor: '[]'},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('card hoverable small'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$div,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('card-image'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$img,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$src('images/nick_ii_library.jpg'),
+												_1: {ctor: '[]'}
+											},
+											{ctor: '[]'}),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$span,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$class('card-title'),
+													_1: {ctor: '[]'}
+												},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('Card Title'),
 													_1: {ctor: '[]'}
 												}),
 											_1: {ctor: '[]'}
 										}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('card-content'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$p,
+												{ctor: '[]'},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('This is a simple card'),
+													_1: {ctor: '[]'}
+												}),
+											_1: {ctor: '[]'}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('card-action'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$a,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$href('#!'),
+														_1: {ctor: '[]'}
+													},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('This is a link'),
+														_1: {ctor: '[]'}
+													}),
+												_1: {ctor: '[]'}
+											}),
+										_1: {ctor: '[]'}
 									}
 								}
-							}
-						}
+							}),
+						_1: {ctor: '[]'}
 					}),
 				_1: {ctor: '[]'}
 			}
