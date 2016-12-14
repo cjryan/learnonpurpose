@@ -4,7 +4,7 @@
   "description": "Research organization tool",
   "main": "index.js",
   "dependencies": {
-    "elm": "^0.17.0"
+    "elm": "^0.18.0"
   },
   "devDependencies": {},
   "scripts": {
