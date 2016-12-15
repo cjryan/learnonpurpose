@@ -4,7 +4,7 @@
   "description": "Research organization tool",
   "main": "index.js",
   "dependencies": {
-    "elm": "^0.17.0"
+    "elm": "^0.18.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/JeremyLWright/topicroutes.git"
+    "url": "https://github.com/LearnOnPurpose/learnonpurpose.git"
   },
   "keywords": [
     "research",
@@ -22,9 +22,9 @@
     "reference"
   ],
   "author": "Jeremy Wright & Chris Ryan",
-  "license": "CC-BY-3.0",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/JeremyLWright/topicroutes/issues"
+    "url": "https://github.com/LearnOnPurpose/learnonpurpose/issues"
   },
-  "homepage": "https://github.com/JeremyLWright/topicroutes#readme"
+  "homepage": "https://github.com/LearnOnPurpose/learnonpurpose/blob/master/README.md"
 }
