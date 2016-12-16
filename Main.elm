@@ -16,9 +16,9 @@ main =
     header [] [
       nav [ class "top-nav orange" ] [
         div [ class "container" ] [
-          div [ class "nav-wrapper container" ] [
-            a [ href "", class "side-menu-btn" ] [ i [ class "material-icons left" ] [text "menu" ] ]
-            ,a [ href "#", class "brand-logo left"] [text "Learn on Purpose" ]
+          div [ class "nav-wrapper" ] [
+            -- a [ href "", class "side-menu-btn" ] [ i [ class "material-icons left" ] [text "menu" ] ]
+            a [ href "#", class "brand-logo left"] [text "Learn on Purpose" ]
             -- Html.form is used here instead of simply 'form': This usage of variable `form` is ambiguous.
             , Html.form [] [
               div [ class "input-field", class "right" ] [
@@ -30,7 +30,7 @@ main =
           ]
         ]
       ]
-      , ul [ id "nav-mobile", class "side-nav fixed" ] [
+      , ul [ id "nav-mobile", class "side-nav fixed", style [ ( "transform", "translateX(0%);" ) ] ] [
           li [] [
             div [ class "userView" ] [
               div [ class "background" ] [
@@ -56,21 +56,49 @@ main =
           , li [] [
               a [ class "waves-effect", href "#!" ] [ text "Third Link With Waves" ]
             ]
+        ] 
+    ] 
+    , main_ [] [
+        div [ class "container" ] [
+          div [ class "row" ] [
+            div [ class "col s12 m9 l10" ] [
+              div [ id "horizontal", class "section" ] [
+                div [ class "row" ] [
+                  div [ class "col s12 m12 l12"] [
+                    div [ class "card horizontal hoverable" ] [
+                      -- main-page-card is a custom class in style.css
+                      div [ class "card-image main-page-card" ] [
+                        h2 [ class "red-text text-darken-1" ] [
+                           text "26" 
+                        ]
+                        , h5 [ class "red-text text-darken-1" ] [
+                           text "today" 
+                        ]
+                      ]
+                      , div [ class "card-stacked" ] [
+                          div [ class "card-content" ] [
+                            h5 [ class "grey-text text-darken-1" ] [ text "Are cookies delicious?" ]
+                          ]
+                          , div [ class "card-action" ] [
+                            span [ class "grey-text text-darken-1" ] [ text " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum id purus commodo fermentum. Mauris semper, quam id vehicula viverra, quam augue tristique enim, a consequat enim lacus ut augue. Integer ultrices tristique mi, quis ultricies nibh tempor vel. Integer vehicula ex eu commodo commodo. Quisque congue feugiat fringilla. Nulla mollis ligula id tellus rhoncus pellentesque. Etiam sit amet euismod diam. Nulla dictum, justo in placerat placerat, dolor ante sagittis risus, ac egestas erat enim at dolor. Cras mi est, pretium vitae auctor ut, pulvinar porta felis. Cras nisi felis, fringilla id elit auctor, scelerisque faucibus purus. Nulla consectetur diam in lectus lobortis tristique ac tempor ipsum. Duis placerat sem mi, quis bibendum felis convallis vel. Nunc lacinia urna lorem. Quisque vel ornare massa. Sed efficitur, nisl ac malesuada vehicula, ligula purus porta sem, at pharetra orci ligula sed urna. Aliquam erat volutpat." ] 
+                          ,br [] []
+                          ,div [ class "chip right" ] [
+                            i [ class "material-icons" ] [ text "language 2" ]
+                          ] 
+                          ,div [ class "chip right" ] [
+                            i [ class "material-icons" ] [ text "language 2" ]
+                          ] 
+                          ,div [ class "chip right" ] [
+                            i [ class "material-icons" ] [ text "language 2" ]
+                          ] 
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
         ]
     ]
-    -- 'main_' has an underscore here, to prevent it from conflicting with 'main' above
-    , main_ [] [
-        div [ class "card hoverable small" ] [
-          div [class "card-image" ] [
-            img [ src "images/nick_ii_library.jpg" ] []
-            , span [ class "card-title" ] [ text "Card Title" ]
-          ]
-          , div [class "card-content" ] [
-            p [] [ text "This is a simple card" ]
-          ]
-          , div [class "card-action" ] [
-            a [ href "#!" ] [ text "This is a link" ]
-          ]
-        ]
-      ]
   ]
